@@ -1,0 +1,41 @@
+{
+  "books": [
+    {
+      "id": "U5cOKnESENv0YCwx",
+      "name": "Задача трех тел",
+      "posterUrl": "https://mirknig.eu/image/cache/Eksmo/zadacha-treh-tel-800x800.jpg",
+      "createdAt": "2021-06-12T11:35:11.606Z",
+      "categories": []
+    }
+  ],
+  "libraries": [
+    {
+      "id": "py8vWR0t_N2DSz7n",
+      "name": "Отдел разработки",
+      "iconUrl": null,
+      "posterUrl": null,
+      "createdAt": "2021-06-12T11:35:11.606Z",
+      "linkedBookIds": [
+        "U5cOKnESENv0YCwx"
+      ]
+    }
+  ],
+  "rental": [
+    {
+      "bookId": "U5cOKnESENv0YCwx",
+      "userId": "4y2uQkjk1qPCo7TJ",
+      "createdAt": "2021-06-12T11:35:11.606Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "4y2uQkjk1qPCo7TJ",
+      "nickname": "mephistorine",
+      "firstName": "Sam",
+      "lastName": "Bulatov",
+      "email": "mephistorine@gmail.com",
+      "createdAt": "2021-06-12T11:35:11.606Z"
+    }
+  ],
+  "logs": []
+}

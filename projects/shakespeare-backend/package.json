@@ -1,0 +1,16 @@
+{
+  "name": "shakespeare-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./db.json --port 5100",
+    "build": "echo 'hello'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
