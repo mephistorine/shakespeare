@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52eb6cfd-1034-4a95-841a-63d336aeb461" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/public/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/App.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/modules/auth/Login.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/modules/auth/Register.svelte" afterDir="false" />
+    <list default="true" id="52eb6cfd-1034-4a95-841a-63d336aeb461" name="Default Changelist" comment="feat: Project init">
+      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/shared/components/Icon.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/shared/icons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/shakespeare-frontend/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/shakespeare-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/shakespeare-frontend/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +19,17 @@
         <option value="test" />
         <option value="Login" />
         <option value="Register" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="Icon" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/projects/shakespeare-frontend/node_modules/rollup-plugin-svelte/index.d.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/common/temp/package.json" />
@@ -48,6 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Secu" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +58,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/common/temp/node_modules/typescript/lib" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -130,6 +135,14 @@
       <option name="presentableId" value="Default" />
       <updated>1623362808846</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: Project init">
+      <created>1623508744088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623508744089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +158,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="feat: Project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Project init" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
